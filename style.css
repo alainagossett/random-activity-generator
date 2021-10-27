@@ -2,3 +2,52 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+body {
+    background-color: #84e6ff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    color: gold;
+    text-shadow: 2px 4px 8px #000;
+    font-family: "Bungee", sans-serif;
+    font-size: 20pt;
+}
+
+main {
+    flex-grow: 1;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a046f5;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 14pt;
+    text-shadow: 2px 4px 4px #000;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 5rem;
+    color: white;
+    text-shadow: 2px 4px 4px #000;
+    font-family: Helvetica;
+    font-size: 15pt;
+}

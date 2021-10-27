@@ -7,6 +7,7 @@ A simple web app for generating random activities to do when you've got too much
 - HTML5
 - CSS3
 - JavaScript/jQuery
+- Google Fonts
 - Bored API
 
 ## Screenshots
