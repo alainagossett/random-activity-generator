@@ -68,20 +68,32 @@ footer {
     font-size: 15pt;
 }
 
-/* @media (min-width 764px) {
+@media (max-width: 768px) {
     body {
         display: flex;
-        align-items: center;
+        flex-direction: column;
         text-align: center;
         justify-content: center;
+        display: inline-block;
     }
     header {
-        font-size: 14pt;
+        text-align: center;
+        font-size: 18pt;
     }
-} */
+    main {
+        padding: 20px;
+    }
+    footer {
+        justify-content: end;
+    }
+}
 
-@media (max-width: 485px) {
+/* I noticed that window sizes between 888 and 754 don't center the header - do I need to account for EVERY possible window size scenario? */
+
+@media (max-width: 375px) {
     body {
+        display: flex;
+        flex-direction: column;
         text-align: center;
         justify-content: center;
         display: inline-block;
