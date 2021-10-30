@@ -49,6 +49,13 @@ input {
 
 input:hover {
     background-color: cornflowerblue;
+    box-shadow: 0 10px 14px 0 #070606;
+}
+
+input:active {
+    background-color: #a046f5;
+    box-shadow: 0 2px #070606;
+    transform: translateY(2px);
 }
 
 main {
