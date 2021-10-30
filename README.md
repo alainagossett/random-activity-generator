@@ -12,9 +12,9 @@ A simple web app for generating random activities to do when you've got too much
 
 ## Screenshots
 
-![Wireframe] (#)
-![Screenshot1] (#)
-![Screenshot2] (#)
+![Wireframe](https://i.imgur.com/pyok8ph.png)
+![Screenshot1](https://i.imgur.com/mtqeBt9.png)
+![Screenshot2](https://i.imgur.com/xMrCkDA.png)
 
 ## Getting Started
 [Click Here] (#) to see the site live
