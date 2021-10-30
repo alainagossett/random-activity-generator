@@ -23,12 +23,11 @@ header {
     font-size: 20pt;
 }
 
-main {
-    flex-grow: 1;
+h3, p {
+    text-align: center;
 }
 
 input {
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #a046f5;
@@ -39,7 +38,13 @@ input {
     font-family: "Press Start 2P", sans-serif;
     font-size: 14pt;
     text-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #070606;
 }
+
+main {
+    flex-grow: 1;
+}
+
 
 footer {
     display: flex;
@@ -51,4 +56,34 @@ footer {
     text-shadow: 2px 2px 2px #000;
     font-family: Helvetica;
     font-size: 15pt;
+}
+
+/* @media (min-width 764px) {
+    body {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    header {
+        font-size: 14pt;
+    }
+} */
+
+@media (max-width: 485px) {
+    body {
+        text-align: center;
+        justify-content: center;
+        display: inline-block;
+    }
+    header {
+        text-align: center;
+        font-size: 12pt;
+    }
+    main {
+        padding: 20px;
+    }
+    footer {
+        justify-content: end;
+    }
 }
