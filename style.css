@@ -5,6 +5,7 @@
 
 body {
     background-color: #84e6ff;
+    background-image: linear-gradient(to bottom right, #84e6ff, #745cfc);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,25 +17,10 @@ header {
     align-items: center;
     justify-content: center;
     height: 15rem;
-    color: gold;
+    color: #e7c817;
     text-shadow: 4px 4px 8px #000;
     font-family: "Bungee", sans-serif;
     font-size: 20pt;
-}
-
-main h3, main p {
-    text-align: center;
-    font-family: "Josefin Sans", sans-serif;
-    padding-top: 20px;
-    line-height: 1.6;
-}
-
-h3 {
-    font-size: 20pt;
-}
-
-p {
-    font-size: 16pt;
 }
 
 form {
@@ -58,7 +44,7 @@ input {
 }
 
 input:hover {
-    background-color: cornflowerblue;
+    background-color: #2d4f8f;
     box-shadow: 0 10px 14px 0 #070606;
 }
 
@@ -69,8 +55,19 @@ input:active {
 }
 
 main {
-
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 20px;
+    line-height: 1.6;
     flex-grow: 2;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 16pt;
 }
 
 
