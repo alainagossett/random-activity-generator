@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 header {
@@ -29,7 +30,7 @@ form {
     padding: 1rem;
 }
 
-input {
+#button {
     align-items: center;
     justify-content: center;
     background-color: #a046f5;
@@ -43,12 +44,12 @@ input {
     box-shadow: 2px 2px 2px #070606;
 }
 
-input:hover {
+#button:hover {
     background-color: #2d4f8f;
     box-shadow: 0 10px 14px 0 #070606;
 }
 
-input:active {
+#button:active {
     background-color: #a046f5;
     box-shadow: 0 2px #070606;
     transform: translateY(2px);
