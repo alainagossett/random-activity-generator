@@ -17,7 +17,7 @@ A simple web app for generating random activities to do when you've got too much
 ![Screenshot2](https://i.imgur.com/xMrCkDA.png)
 
 ## Getting Started
-[Click Here] (#) to see the site live
+[Click Here] (https://generaterandomactivity.netlify.app/) to see the site live
 
 ## Future Enhancements
 

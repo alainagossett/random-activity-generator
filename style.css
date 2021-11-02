@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Helvetica;
 }
 
 header {
@@ -23,8 +22,19 @@ header {
     font-size: 20pt;
 }
 
-h3, p {
+main h3, main p {
     text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 16pt;
 }
 
 form {
@@ -59,6 +69,7 @@ input:active {
 }
 
 main {
+
     flex-grow: 2;
 }
 
@@ -71,8 +82,9 @@ footer {
     height: 5rem;
     color: white;
     text-shadow: 2px 2px 2px #000;
-    font-family: Helvetica;
     font-size: 15pt;
+    font-family: Helvetica;
+    line-height: normal;
 }
 
 @media (max-width: 768px) {
