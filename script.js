@@ -47,11 +47,5 @@ function render() {
         <p><strong>Participants:</strong><br/> ${activityData.participants}</p><br/>
         <p><strong>Price:</strong><br/> ${activityData.price}</p>
     `);
-    emptyInput();
-}
-
-function emptyInput() {
-    $max.empty();
-    $min.empty();
 }
 })
