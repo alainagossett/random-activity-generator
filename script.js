@@ -44,7 +44,7 @@ function render() {
     $main.html(`
         <h3>Activity:<br/> ${activityData.activity}</h3><br/>
         <p><strong>Type:</strong><br/> ${activityData.type}</p><br/>
-        <p><strong>Participants:</strong><br/> ${activityData.participants}</p>
+        <p><strong>Participants:</strong><br/> ${activityData.participants}</p><br/>
         <p><strong>Price:</strong><br/> ${activityData.price}</p>
     `);
     emptyInput();

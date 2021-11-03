@@ -26,8 +26,23 @@ header {
 
 form {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem;
+}
+
+div {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+#min, #max {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    color: #311da5;
+    font-weight: bold;
 }
 
 #button {
@@ -85,17 +100,21 @@ footer {
     line-height: normal;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px){
     body {
         display: flex;
         flex-direction: column;
         text-align: center;
         justify-content: center;
         display: inline-block;
+        background-repeat: no-repeat;
+        width: 768px;
     }
     header {
-        text-align: center;
-        font-size: 18pt;
+        overflow-wrap: break-word;
+    }
+    div {
+        display: inline-block;
     }
     main {
         padding: 20px;
@@ -107,17 +126,22 @@ footer {
 
 /* I noticed that window sizes between 888px and 754px don't center the header - do I need to account for EVERY possible window size scenario? */
 
-@media (max-width: 375px) {
+@media only screen and (max-width: 375px) {
     body {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
         justify-content: center;
         display: inline-block;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     header {
-        text-align: center;
-        font-size: 12pt;
+        overflow-wrap: break-word;
+    }
+    div {
+        justify-content: space-between;
     }
     main {
         padding: 20px;

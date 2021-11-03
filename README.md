@@ -22,5 +22,4 @@ A simple web app for generating random activities to do when you've got too much
 ## Future Enhancements
 
 - Add images or gifs to the DOM based on the type of activity
-- Allow user to add pricepoint options and generate activity based on max cost
 - Add a list of past generated activities that a user can store in a to do list
