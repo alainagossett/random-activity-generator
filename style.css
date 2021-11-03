@@ -126,13 +126,6 @@ footer {
 
 @media screen and (max-width: 375px) {
     body {
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* text-align: center; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* max-width: 375px; */
-        /* display: inline-block; */
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
